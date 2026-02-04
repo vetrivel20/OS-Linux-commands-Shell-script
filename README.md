@@ -82,18 +82,18 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
+![Alt text](image/img06.png)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+![Alt text](image/img07.png)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![Alt text](image/img08.png)
 
 cat < newfile 
 ```
@@ -107,29 +107,29 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
+![Alt text](image/img09.png)
 
 
 grep hello newfile 
 ## OUTPUT
+![Alt text](image/img10.png)
 
 
 
-
-grep -v hello newfile 
+grep -v hello newfile
 ## OUTPUT
-
+![Alt text](image/img11.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
+![Alt text](image/img12.png)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
+![Alt text](image/img13.png)
 
 
 
