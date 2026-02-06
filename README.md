@@ -135,12 +135,12 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
-
-
+![Alt text](image/ims14.png)
+![Alt text](image/img15.png)
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![Alt text](image/img16.png)
 
 cat < newfile 
 ```
@@ -163,60 +163,60 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
+![Alt text](image/img17.png)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+![Alt text](<image/img 18.png>)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
+![Alt text](<image/img 19.png>)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+![Alt text](<image/img 20.png>)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
+![Alt text](image/img21.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![Alt text](image/ims22.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
+![Alt text](image/img23.png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
+![Alt text](image/img24.png)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![Alt text](<image/img 25.png>)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+![Alt text](<image/img 26.png>)
 
 egrep l{2} newfile
 ## OUTPUT
-
+![Alt text](<image/img 27.png>)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+![Alt text](<image/img 28.png>)
 
 cat > file23
 ```
@@ -234,63 +234,63 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
+![Alt text](<image/img 29.png>)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-
+![Alt text](image/img30.png)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
+![Alt text](image/img31.png)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
+![Alt text](<image/img 32.png>)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
+![Alt text](image/img33.png)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
+![Alt text](image/img34.png)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-
+![Alt text](image/img35.png)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
+![Alt text](image/img36.png)
 
 
 seq 10 
 ## OUTPUT
-
+![Alt text](image/img37.png)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
+![Alt text](image/img38.png)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
+![Alt text](image/img39.png)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
+![Alt text](<image/img 40.png>)
 
 
 seq 2 | sed '2i hello'
@@ -299,14 +299,13 @@ seq 2 | sed '2i hello'
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![Alt text](<image/img 41.png>)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![Alt text](image/42.png)
 
 
-
-sed -n '2,4{s/$/*/;p}' file23
 
 
 #Sorting File content
@@ -320,7 +319,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![Alt text](<image/img 47.png>)
 
 cat > file22
 ```
@@ -333,13 +332,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![Alt text](image/45.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![Alt text](<image/img 46.png>)
 
 cat < urllist.txt
 ```
@@ -356,18 +356,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+![Alt text](image/48.png)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+![Alt text](<image/img 49.png>)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![Alt text](<image/img 50.png>)
 
 mkdir backupdir
  
