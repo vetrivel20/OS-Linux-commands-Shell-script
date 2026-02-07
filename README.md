@@ -532,7 +532,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-
+[Title](image/img51png)
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -578,7 +578,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![Alt text](image/img52.png)
 
 
 # using numeric test comparisons
@@ -622,7 +622,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
-
+![Alt text](image/img53.png)
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -671,7 +671,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-
+![Alt text](image/img54.png)
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -699,7 +699,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![Alt text](image/img55.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -715,7 +715,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
+![Alt text](image/img56.png)
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -826,6 +826,10 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![Alt text](image/img57.png)
+![Alt text](image/img58.png)
+![Alt text](image/img59.png)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -847,7 +851,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![Alt text](image/img60.png)
 
 cat forctype.sh 
 ```bash
@@ -861,6 +865,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![Alt text](image/img61.png)
 
 cat forctype1.sh 
 ```bash
@@ -874,6 +879,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![Alt text](image/img62.png)
 
 cat fornested1.sh 
 ```bash
@@ -892,7 +898,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![Alt text](image/img63.png)
  
 cat forbreak.sh 
 ```bash
@@ -909,6 +915,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+![Alt text](image/img64.png)
 
 $ chmod 755 forbreak.sh
  
@@ -934,7 +941,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![Alt text](image/img65.png)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -948,7 +956,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+![Alt text](image/img66.png)
 
  cat exread1.sh
 ```bash
