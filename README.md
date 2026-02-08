@@ -449,24 +449,28 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
+![Alt text](image/img75.png)
  
 ls file1
 ## OUTPUT
+![Alt text](img76.png)
 
 echo $?
 ## OUTPUT 
+![Alt text](image/img77.png)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![Alt text](image/img78.png)
+
 abcd
  
 echo $?
  ## OUTPUT
-
+![Alt text](img79.png)
 
  
 # mis-using string comparisons
@@ -498,7 +502,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-
+![Alt text](image/img74.png)
 
 
 chmod 755 strcomp.sh
@@ -968,11 +972,11 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-
+![Alt text](image/img67.png)
 
 
 $ ./exread1.sh 
- 
+
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -989,9 +993,8 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
- ./funcex.sh 
-
- 
+![Alt text](image/img68.png)
+./funcex.sh 
  ./funcex.sh 1 2
 
  
@@ -1006,6 +1009,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+![Alt text](image/img69.png)
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1023,6 +1028,8 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+![Alt text](image/img70.png)
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1036,6 +1043,8 @@ done
 set +x
 ```
 ## OUTPUT
+
+
  ./argshift.sh 1 2 3
  
  
@@ -1068,7 +1077,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![Alt text](image/img72.png)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1095,7 +1105,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+![Alt text](image/img73.png)
 
 # RESULT:
 The Commands are executed successfully.
