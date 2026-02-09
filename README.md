@@ -399,7 +399,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-
+![Alt text](image/img81.png)
  
 cat << stop > herecheck.txt
 ```
@@ -411,7 +411,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![Alt text](image/img80.png)
 
 cat < scriptest.sh 
 ```bash
