@@ -377,19 +377,20 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-
+![Alt text](img82.png)
 
 tar -xvf backup.tar
 ## OUTPUT
-
+![Alt text](img83.png)
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![Alt text](img84.png)
+
 gunzip backup.tar.gz
 ## OUTPUT
-
+![Alt text](img85.png)
  
 # Shell Script
 ```
